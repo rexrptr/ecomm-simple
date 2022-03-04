@@ -8,7 +8,7 @@ export default function Item(props) {
       <img src={item.imgUrl} />
       <p>{item.name}</p>
       <p>${item.price}</p>
-      <button onClick={() => onAdd(item)}>Añadir al carrito</button>
+      <button onClick={() => onAdd(item)}>Add to cart</button>
     </div>
     
   );
