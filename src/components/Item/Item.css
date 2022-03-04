@@ -1,0 +1,36 @@
+img {
+  width: 220px;
+  height: 210px;
+  border-radius: 20px;
+}
+
+.item-card {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ebebeb;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  border-radius: 20px;
+}
+.item-card:last-child {
+  margin-right: 0;
+}
+
+.item-card p {
+  margin: 0.4rem 0;
+  font-weight: bold;
+}
+
+.item-card button {
+  margin: 0.6rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  background: goldenrod;
+  border: 0;
+  border-radius: 15px;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: bold;
+}

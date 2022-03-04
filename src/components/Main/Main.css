@@ -1,0 +1,12 @@
+.main {
+    margin: 1rem 0;
+}
+
+
+.item-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

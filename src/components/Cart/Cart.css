@@ -1,0 +1,36 @@
+.cart {
+  background: burlywood;
+  padding: 1rem;
+}
+
+.add,
+.remove {
+  width: 20px;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  border: 0;
+  width: 25px;
+  padding: 0.3rem 0;
+  border-radius: 10px;
+  transition: all ease 250ms;
+  cursor: pointer;
+}
+
+.add:hover,
+.remove:hover {
+  filter: brightness(115%);
+}
+
+.add {
+  background: rgb(131, 179, 60);
+  color: white;
+}
+
+.remove {
+  background-color: rgb(201, 60, 60);
+  color: white;
+}
+
+.item-single {
+  margin: 1rem 0;
+}

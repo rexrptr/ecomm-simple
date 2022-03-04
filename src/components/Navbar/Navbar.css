@@ -1,0 +1,27 @@
+header {
+  background: #7882A4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+header .logo {
+  margin-left: 2rem;
+  letter-spacing: 0.2em;
+  color: #EFEFEF;
+}
+
+header .links p {
+  margin-right: 2rem;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: rgb(204, 59, 59);
+  color: white;
+  padding: 0.4rem 0.6rem;
+  border: 0;
+  border-radius: 10px;
+}
